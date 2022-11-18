@@ -1,5 +1,4 @@
-.navbar {
-  
+.navbarAdmin {
   background-color: #ffe172;
   box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15);
   overflow: hidden;
@@ -8,6 +7,8 @@
   height: 8vh;
   z-index: 1;
   width: 100vw;
+  display: flex;
+  justify-content: end;
 }
 
 .profile_info p {
@@ -15,5 +16,5 @@
   font-weight: bold;
   font-size: 20px;
   margin: 0;
-  padding: 0 20px;
+  padding: 20px;
 }
